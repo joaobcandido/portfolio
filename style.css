@@ -3,10 +3,10 @@
     padding: 0;
 }
 body{
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing :border-box border-box;
     background-color: hwb(0 0% 100% / 0.761);
-    color:rgba(194, 143, 23, 0.748) ;
+    color:rgba(249, 247, 244, 0.656) ;
 }
 
 strong{
@@ -21,8 +21,8 @@ strong{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 15%;
-    gap: 80px;
+    padding: 10% ;
+   
 }
 
 .foto{
@@ -32,7 +32,9 @@ strong{
 
 .apresentacao__conteudo{
     width: 50vw;
+    height: 100vh;
     flex-direction: column;
+    
     
 }
 
@@ -42,9 +44,7 @@ strong{
 }
 
 .apresentacao__conteudo__paragrafo{
-    font-family: "Chonburi", system-ui;
-    font-weight: 400;
-    font-style: normal;
+    
     
 }
 
@@ -58,19 +58,32 @@ strong{
 
 .apresentacao__conteudo__links__link{
     border: 2px solid #00AFE0;
-    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
     text-align: center;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 20px; 
     text-decoration: none;
-    color: black;
-    font-family: "Chonburi", system-ui;
-    font-weight: 400;
-    font-style: normal;
+    color: rgb(252, 249, 249);
+    gap: 10px;
    
     
 }
 
+.apresentacao__conteudo__links__link:hover{
+    background-color: rgba(0, 0, 0, 0.182);
+}
+
 .apresentacao__conteudo__links__subtitulo{
     font-size: 20px;
+}
+
+.rodape{
+   color: rgba(250, 247, 247, 0.913); 
+   background-color: #00AFE0;
+   padding: 15px;
+   text-align: center;
+   font-size: 20px;
 }
