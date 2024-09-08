@@ -6,23 +6,21 @@ body{
     /* height: 100vh; */
     box-sizing :border-box border-box;
     background-color: hwb(0 0% 100% / 0.761);
-    color:rgba(249, 247, 244, 0.656) ;
+    color:rgba(223, 157, 16, 0.856) ;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 strong{
     color: #e85703d6;
 }
 
-.titulo-destaque {
-    color: aliceblue;
-}
 
 .apresentacao{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10% ;
-   
 }
 
 .foto{
@@ -44,7 +42,6 @@ strong{
 }
 
 .apresentacao__conteudo__paragrafo{
-    
     
 }
 
