@@ -5,12 +5,12 @@
 body{
     height: 100vh;
     box-sizing :border-box border-box;
-    background-color: hwb(0 0% 100% / 0.707);
-    color:rgb(226, 142, 17) ;
+    background-color: hwb(0 0% 100% / 0.761);
+    color:rgba(194, 143, 23, 0.748) ;
 }
 
 strong{
-    color: #e00022;
+    color: #e85703d6;
 }
 
 .titulo-destaque {
@@ -21,12 +21,12 @@ strong{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 5% 10%;
+    margin: 10% 15%;
     gap: 80px;
 }
 
 .foto{
-    height: 40vh;
+    height: 28vh;
     border-radius: 300px;
 }
 
@@ -37,12 +37,11 @@ strong{
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 90px;
+    font-size:xx-large;
     color: #00AFE0;
 }
 
 .apresentacao__conteudo__paragrafo{
-    font-size: 35px;
     font-family: "Chonburi", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -51,22 +50,27 @@ strong{
 
 .apresentacao__conteudo__links{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: 15px;
 }
 
-.apresentacao__conteudo__link{
-    background-color: #00AFE0;
-    width: 280px;
+.apresentacao__conteudo__links__link{
+    border: 2px solid #00AFE0;
+    width: 250px;
     text-align: center;
-    border-radius: 16px;
-    font-size: 25px;
-    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
     text-decoration: none;
     color: black;
     font-family: "Chonburi", system-ui;
     font-weight: 400;
     font-style: normal;
-    margin: 20px;
+   
     
+}
+
+.apresentacao__conteudo__links__subtitulo{
+    font-size: 20px;
 }
