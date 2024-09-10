@@ -41,6 +41,7 @@ strong{
 
 .apresentacao2__conteudo{
     text-align: center;
+  
 }
 
 .construcao{
@@ -127,6 +128,7 @@ strong{
     display: flex;
     gap: 30px;
     margin: 5% 10%;
+   ;
 
 }
 
