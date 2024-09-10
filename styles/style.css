@@ -98,7 +98,7 @@ strong{
 }
 
 .rodape{
-   color: var(--cor-3) ;
+   color: var(--cor-3);
    background-color: var(--cor-5);
    padding: 5px;
    text-align: center;
@@ -119,6 +119,22 @@ strong{
 .cabecalho__menu__link{
     font-size: 20px;
     text-decoration: none;
-    color: var(--cor-5);
+    color: #00AFE0;
      
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+    margin: 5% 10%;
+
+}
+
+.projetos{
+    height: 300px;
+    width: 300px;
+    border: 2px solid ;
+   
+   
+    
 }
