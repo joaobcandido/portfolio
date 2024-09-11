@@ -43,7 +43,9 @@ strong{
 
 .apresentacao2__conteudo{
     text-align: center;
-  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .construcao{
@@ -81,7 +83,7 @@ strong{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 200px;
     text-align: center;
     border-radius: 10px;
     font-size: 1.5rem; 
@@ -138,9 +140,6 @@ strong{
     height: 300px;
     width: 300px;
     border: 2px solid ;
-   
-   
-    
 }
 
 .tamanho__foto{
@@ -148,7 +147,7 @@ strong{
     width: 300px;
 }
 
-@media (max-width:1200px){
+@media (max-width:1300px){
     .apresentacao{
         flex-direction: column-reverse;
     }
