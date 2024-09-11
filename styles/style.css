@@ -29,7 +29,9 @@ strong{
 .apresentacao{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 5% 10% ;
+    gap: 100px;
 }
 
 .apresentacao2{
@@ -50,7 +52,6 @@ strong{
 
 .foto{
     height: 28vh;
-    width: 50%;
     border-radius: 300px;
     border: 2px solid var(--cor-3);
 }
@@ -146,3 +147,28 @@ strong{
     height: 300px;
     width: 300px;
 }
+
+@media (max-width:1200px){
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+
+
+    .container{
+        flex-direction: column;
+    }
+
+    .cabecalho{
+        padding: 8%;
+    }
+
+    .cabecalho__menu{
+        
+    justify-content: center;
+    
+    }
+}
+
+
+
+
