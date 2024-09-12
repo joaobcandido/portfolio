@@ -31,7 +31,7 @@ strong{
     justify-content: space-between;
     align-items: center;
     padding: 5% 10% ;
-    gap: 100px;
+    gap: 3rem;
 }
 
 .apresentacao2{
@@ -54,13 +54,14 @@ strong{
 
 .foto{
     height: 28vh;
-    border-radius: 300px;
-    border: 2px solid var(--cor-3);
+    border-radius: 180px;
+    border: 3px solid var(--cor-2);
 }
 
 
 .apresentacao__conteudo{
     flex-direction: column;
+    
 
 }
 
@@ -136,15 +137,11 @@ strong{
 
 }
 
-.projetos{
-    height: 300px;
-    width: 300px;
-    border: 2px solid ;
-}
-
 .tamanho__foto{
     height: 300px;
     width: 300px;
+    border-radius: 2rem;
+    border: 3px solid var(--cor-2);
 }
 
 @media (max-width:1300px){
