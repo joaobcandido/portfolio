@@ -97,6 +97,23 @@ strong{
     
 }
 
+.apresentacao__conteudo__links__link__cv{
+    border: 2px solid var(--cor-5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.5rem; 
+    text-decoration: none;
+    color: var(--cor-3);
+    padding: 2px;
+    background-color: transparent;
+}
+.apresentacao__conteudo__links__link__cv:hover{
+    background-color: var(--cor-1);
+}
 .apresentacao__conteudo__links__link:hover{
     background-color: var(--cor-1);
 }
@@ -190,7 +207,11 @@ strong{
         gap: 7px;
         
     }
-
+    .apresentacao__conteudo__links__link__cv{
+        width: 120px;
+        font-size: 1.1rem;
+        padding: 5px 2px;
+    }
     .apresentacao__conteudo__links{
         gap: 10px;
     }
